@@ -1,0 +1,21 @@
+2024-08-06T15:53:41.460+09:00  INFO 12212 --- [sc] [Test worker] com.lms.sc.MsTest                        : Starting MsTest using Java 17.0.11 with PID 12212 (started by HKIT in C:\Users\HKIT\Desktop\SH\lmsProject\sc)
+2024-08-06T15:53:41.462+09:00  INFO 12212 --- [sc] [Test worker] com.lms.sc.MsTest                        : No active profile set, falling back to 1 default profile: "default"
+2024-08-06T15:53:42.658+09:00  INFO 12212 --- [sc] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06T15:53:42.786+09:00  INFO 12212 --- [sc] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 10 JPA repository interfaces.
+2024-08-06T15:53:43.384+09:00  INFO 12212 --- [sc] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06T15:53:43.466+09:00  INFO 12212 --- [sc] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-06T15:53:43.515+09:00  INFO 12212 --- [sc] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-06T15:53:43.908+09:00  INFO 12212 --- [sc] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06T15:53:43.954+09:00  INFO 12212 --- [sc] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-06T15:53:44.362+09:00  INFO 12212 --- [sc] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1786150f
+2024-08-06T15:53:44.365+09:00  INFO 12212 --- [sc] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-06T15:53:44.423+09:00  WARN 12212 --- [sc] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06T15:53:44.424+09:00  WARN 12212 --- [sc] [Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-06T15:53:45.732+09:00  INFO 12212 --- [sc] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06T15:53:45.985+09:00  INFO 12212 --- [sc] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06T15:53:46.334+09:00  INFO 12212 --- [sc] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-06T15:53:47.394+09:00  INFO 12212 --- [sc] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userSecurityService
+2024-08-06T15:53:48.260+09:00  INFO 12212 --- [sc] [Test worker] com.lms.sc.MsTest                        : Started MsTest in 7.145 seconds (process running for 8.543)
+2024-08-06T15:53:48.980+09:00  INFO 12212 --- [sc] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06T15:53:48.983+09:00  INFO 12212 --- [sc] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-06T15:53:48.990+09:00  INFO 12212 --- [sc] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
